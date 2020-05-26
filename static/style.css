@@ -1,0 +1,94 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* IMAGES */
+.pimg1 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*
+        fixed = parallax
+        scroll = normal 
+     */
+    background-attachment: fixed;
+    /* background-image: url(/static/markus-winkler-afW1hht0NSs-unsplash.jpg); */
+    min-height: 100%;
+    /* background-color: #14213d; */
+    background-image: url(/static/imagens/andrew-neel-1-29wyvvLJA-unsplash.jpg);
+}
+
+/* SECTIONS AND TEXT */
+.section {
+    text-align: center;
+    padding: 5%;
+    background-color: #fca311;
+    color: #14213d;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border {
+    background-color: #14213d;
+    /* color: #14213d; */
+    color: #fca311;
+    padding: 20px;
+}
+
+/* FOOTER */
+.flex-container {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    background-color: #14213d;
+    color: #fca311;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container > div {
+    text-align: center;
+    margin: 5%;
+    padding: 5%;
+    justify-content: space-evenly;
+    /*  */
+    /* background-color: #f1f1f1; */
+    flex-grow: 6;
+    flex-wrap: wrap;
+}
+
+/* SCREEN SIZE */
+@media (max-width: 568px) {
+    .pimg1 {
+        background-attachment: scroll;
+    }
+}
+
+input[type=text] {
+    width: 300px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 40%;
+}

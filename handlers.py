@@ -14,7 +14,7 @@ app.debug = True
 @app.route('/')
 def hello():
     data = search.findText('TCP')
-    return render_template('index.html', wordFind=data)
+    return render_template('index.html', wordFind='TCP', filesFound = data)
 
 
 if __name__ == '__main__':

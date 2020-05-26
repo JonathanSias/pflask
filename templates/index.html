@@ -6,7 +6,15 @@
     </head>
     <body>
         <div class="">
-            <p>{{ wordFind }}</p>
+            <h1>Word Search: {{wordFind}}</h1>
+
+            {% for filesname in filesFound.keys() %}
+                <p>File: {{filesname}}</p>
+                {% for pages in filesFound[filesname]['pages'] %}
+                    <li>Found in Page: {{pages}}</li>
+                {% endfor %}
+            {% endfor %}
+            
         </div>
     </body>
 </html>

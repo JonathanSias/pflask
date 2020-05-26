@@ -1,0 +1,5 @@
+# vscode files
+.vscode
+
+# virtualenv files
+.env2/

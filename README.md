@@ -79,4 +79,4 @@ print page_content
 ## Authors
 
 * **Jonathan Sias** 
-* **Rodrigo Acosta(github.com/RodrigoAcosta)**
+* **[Rodrigo Acosta](github.com/RodrigoAcosta)**

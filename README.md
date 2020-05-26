@@ -9,6 +9,38 @@ Documentação.
 * [Flask]()
 * [VSCode]()
 
+## Flask
+
+> Virtualenv version.
+
+´´´sh
+virtualenv --version
+´´´
+
+> Pip packages.
+
+´´´sh
+pip freeze
+´´´
+
+> Ativando virtual environment.
+
+´´´sh
+source .env2/bin/activate
+´´´
+
+> Rodando aplicação.
+
+´´´sh
+python handlers.py
+´´´
+
+> Desativando virtual environment.
+
+´´´sh
+deactivate
+´´´
+
 ## PyPDF2
 
 > Open and Read PDF.

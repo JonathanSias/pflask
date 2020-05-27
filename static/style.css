@@ -80,6 +80,17 @@ html {
     .pimg1 {
         background-attachment: scroll;
     }
+    .ptext {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar a {
+        /* font-size: 10px; */
+        margin: 0.7%;
+
+    }
 }
 
 /* INPUT */
@@ -121,7 +132,7 @@ input[type=text]:focus {
 /* Style the navigation bar links */
 .navbar a {
     color: #fca311;
-    padding: 14px 20px;
+    padding: 1.5%;
     text-decoration: none;
     text-align: center;
 }
@@ -172,4 +183,11 @@ input[type=text]:focus {
 .buttons {
     text-align: center;
     align-items: center;
+    /* background-color: #14213d;
+    color: #fca311; */
+}
+
+.buttons input:hover {
+    background-color: #fca311;
+    color: #14213d;
 }

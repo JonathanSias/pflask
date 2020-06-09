@@ -35,6 +35,12 @@ source .env2/bin/activate
 python handlers.py
 ```
 
+> Abrindo no browser.
+
+```sh
+localhost:5000
+```
+
 > Desativando virtual environment.
 
 ```sh
